@@ -11,6 +11,7 @@ python2  FTP_brute.py   ip.txt   thread_nums
 
 内网大面积ip爆破 ，100-1000个地址   ----->   建议使用 top10pass 或者 top100pass ，节省时间  
 单个ip详细爆破，1个地址 -----> 建议使用 top 1000~10000 pass ， 详细爆破
+
 （时间不着急的，建议top5000+，夜间放置爆破）
 
 工具仅用于安全测试，切勿非法使用
