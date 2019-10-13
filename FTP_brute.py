@@ -123,9 +123,9 @@ if __name__ == '__main__':
             print u'现在时间：'+ time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+'\n'
             print u'[+] FTP暴破测试中……\n'
             run(sys.argv[1],int(sys.argv[2]))
-            print u'[+] 破解完成，用时： %d 秒' % (time.time() - start_time)
+            print u'\n[+] 破解完成，用时： %d 秒' % (time.time() - start_time)+'\n'
 
-        print u'最后时间：' + time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))+'\n'
+        print u'最后时间：' + time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
         print '+' + '-' * 55 + '+'
 
 
