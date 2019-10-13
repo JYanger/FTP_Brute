@@ -2,7 +2,7 @@
 
 FTP爆破
 
-注意事项：（同目录下需要有ftp_users.txt 和ftp_pwds.txt字典，字典可自行调整）
+注意事项：（同目录下需要有ftp_users.txt 和ftp_pwds.txt字典，字典大小可自行调整）
 
 用法 ：
 python2  FTP_brute.py   ip.txt   thread_nums
