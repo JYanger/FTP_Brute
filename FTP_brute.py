@@ -46,6 +46,7 @@ def brute_anony(ip):
             ftp.login()
             #ftp.retrlines('LIST')
             ftp.quit()
+	    ftp.close()
             #print '\n[+] 匿名登陆成功……\n'
             return 100
         except ftplib.all_errors:
@@ -70,6 +71,7 @@ def brute_users(ip):
                            ftp.login(user, pwd)
                            #ftp.retrlines('LIST')
                            ftp.quit()
+			   ftp.close()
                            time.sleep(random.random())
                            print '[+] '+str(ip)+':'+str(port)+u' 破解成功， 用户名：%s 密码：%s' % (user, pwd)
                         except ftplib.all_errors:
