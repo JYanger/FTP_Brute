@@ -41,7 +41,7 @@ def brute_anony(ip):
         try:
             #print '[+] 测试匿名登陆……\n'
             ftp = ftplib.FTP()
-            ftp.connect(ip, port, timeout=0.01)
+            ftp.connect(ip, port, timeout=0.05)
             #print 'FTP消息: %s \n' % ftp.getwelcome()
             ftp.login()
             #ftp.retrlines('LIST')
@@ -58,7 +58,7 @@ def brute_users(ip,user,pwd):
         try:
            #print ip,user,pwd
            ftp = ftplib.FTP()
-           ftp.connect(ip, port, timeout=0.01)
+           ftp.connect(ip, port, timeout=0.05)
            ftp.login(user, pwd)
            #ftp.retrlines('LIST')
            ftp.quit()
